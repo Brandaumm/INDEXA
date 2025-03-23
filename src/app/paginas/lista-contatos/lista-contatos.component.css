@@ -11,3 +11,11 @@ input {
     font-weight: 400;
     line-height: 150%;
 }
+
+
+.voltar{
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+    background: none;
+  }
