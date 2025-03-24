@@ -1,3 +1,8 @@
+.button{
+    margin: 0;
+    padding: 0;
+}
+
 .contato ul {
     display: flex;
     padding: 0;
@@ -27,6 +32,23 @@
 
 }
 
+.ul-contact{
+    align-items: center;
+}
+
+.avatar-name{
+    font-size: 80%;
+    margin: 0;
+}
+
+
+
+.section-contact{
+    display: flex;
+    width: 80%;
+    flex-direction: column;
+}
+
 .contato ul img {
     cursor: pointer;
   }
@@ -34,5 +56,6 @@
   .contato .avatar {
     width: 50px;
     height: 50px;
+    border-radius: 50%;
     object-fit: cover;
   }

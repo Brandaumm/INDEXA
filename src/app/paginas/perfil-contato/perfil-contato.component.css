@@ -17,6 +17,7 @@ header .cabecalho-link {
         padding-top: 12px;
         padding-left: 24px;
         margin-top: 36px;
+        
       }
       
       .imagem-perfil img {
@@ -142,4 +143,12 @@ header .cabecalho-link {
     color:#FFFFFF;
     background-color: #0D6EFD;
     cursor: pointer;
+    }
+
+    .imagem-perfil-imagem{
+      border-radius: 50%;
+    }
+
+    .texto{
+      font-size: 100%;
     }

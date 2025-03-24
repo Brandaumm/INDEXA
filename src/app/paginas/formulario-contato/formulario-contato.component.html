@@ -11,7 +11,7 @@
     
     </section>
 
-    <section>
+    <section class="adicionar-contato">
         <img src="../../../assets/adicionar-contato.png" alt="">
         <h1>Adicionar contato</h1>
     </section>
@@ -27,8 +27,8 @@
     </div>
 
     @if(contatoForm.get('avatar')?.value !== ''){
-        <figure>
-            <img [src]="contatoForm.get('avatar')?.value" alt="">
+        <figure class="avatar_figure">
+            <img class="avatar" [src]="contatoForm.get('avatar')?.value" alt="">
         </figure>
     }
 

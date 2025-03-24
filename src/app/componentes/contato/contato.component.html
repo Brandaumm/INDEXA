@@ -1,11 +1,15 @@
 <section class="contato">
-    <ul>
+    <ul class="ul-contact">
         <img [src]="avatar" alt="avatar" class="avatar" [routerLink]="['/perfil-contato', id]">
-        <li> {{ nome }} </li>
-        <li> {{ telefone }} </li>
-        <li>
-            <button [routerLink]="['/formulario', id]"><img src="../../../assets/pencil-square.png" alt=""></button>
-            <button [routerLink]="['/perfil-contato', id]"><img src="../../../assets/trash.png" alt=""></button>
-        </li>
+        <section class="section-contact">
+            <li><h1 class="avatar-name"> {{ nome }} </h1></li>
+            <li> {{ telefone }} </li>
+            <section class="botao-section">
+                <li>
+                    <button class="button" [routerLink]="['/formulario', id]"><img src="../../../assets/pencil-square.png" alt=""></button>
+                    <button [routerLink]="['/perfil-contato', id]"><img src="../../../assets/trash.png" alt=""></button>
+                </li>
+            </section>
+        </section>
     </ul>
 </section>

@@ -12,6 +12,19 @@ input {
     line-height: 150%;
 }
 
+.botao{
+    display: flex;
+    gap: 10px;
+    background-color: transparent;
+    border: none;
+    border-radius: 5%;
+    justify-content: center;
+    align-items: center;
+}
+
+.botao:hover{
+    background: rgb(238, 238, 238);
+}
 
 .voltar{
     text-decoration: none;

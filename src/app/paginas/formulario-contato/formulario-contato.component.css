@@ -216,3 +216,21 @@ header .cabecalho-link {
     figure {
     margin: 0 0 16px 0;
     }
+
+    .adicionar-contato{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .avatar{
+      display: flex;
+      justify-content: center;
+      border-radius: 50%;
+    }
+
+    .avatar_figure{
+      display: flex;
+      justify-content: center;
+    }
